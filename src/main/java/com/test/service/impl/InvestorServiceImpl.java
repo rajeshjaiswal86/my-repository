@@ -15,8 +15,8 @@ public class InvestorServiceImpl implements InvestorService{
     @Autowired
     private InvestorDAO invDAO;
 	@Override
-	public OutputVO createInvestor(InputVO inputVO) {
-		return invDAO.createInvestor(inputVO);
+	public OutputVO createInvestor(InputVO inpVO) {
+		return invDAO.createInvestor(inpVO);
 	}
 	@Override
 	public OutputVO updateInvestor(InputVO inputVO) {
